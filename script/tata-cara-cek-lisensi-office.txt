@@ -1,0 +1,15 @@
+Buka CMD di kolom pencarian search
+
+Ketikkan "C:\Program Files\Microsoft Office\Office16\"
+
+Lalu ketikkan cscript ospp.vbs /dstatus
+
+Bila muncul tulisan Input Error: Can not find script file "C:\Program Files\Microsoft Office\Office16\ospp.vbs"."
+
+Bisa ketikkan cd "C:\Program Files (x86)\Microsoft Office\Office16\"
+
+Lalu ketikkan lagi cscript ospp.vbs /dstatus
+
+Jika hasilnya terdapat karakter --> B7YGV
+
+Bisa dilist nama user dan dari cabang mana

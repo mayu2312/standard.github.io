@@ -1,0 +1,16 @@
+Tekan F12 pada menu browser coretax lalu masuk ke menu console dan tambahkan perintah di bawah
+
+`allow-pasting` <-- Copy terlebih dahulu, setelah itu enter
+
+Masukkan Kode di bawah setelah allow pasting dienter
+
+const buttons =
+document.querySelectorAll('#DownloadButton');
+let delay = 2000;
+
+buttons.forEach((button, index) => {
+	setTimeout(() => {
+		button.click();
+			console.log(`PDF terunduh ${index + 1}`);
+},	delay * index);
+});
